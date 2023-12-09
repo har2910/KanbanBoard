@@ -1,0 +1,165 @@
+/* App.css 
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.app {
+  max-width: 1200px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+button {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+/* KanbanBoard.css 
+.kanban-board {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* TicketColumn.css 
+.ticket-column {
+  flex: 1;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  margin: 0 10px;
+}
+
+.ticket-column h2 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.ticket-list {
+  display: flex;
+  flex-direction: column;
+}
+
+/* TicketCard.css 
+.ticket-card {
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.ticket-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+}
+
+.ticket-card p {
+  font-size: 0.9rem;
+  color: #666;
+}
+*/
+
+/* bro I get this code but it is not showing any changes , Please try in your system */
+/* App.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+.ticket-list {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  font-size: 16px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+select {
+  font-size: 14px;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.ticket-column {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.ticket-column h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.ticket-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+  
+}
+
+.ticket-card h3 {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.ticket-card.todo {
+  border-color: #3498db;
+}
+
+.ticket-card.in-progress {
+  border-color: #2ecc71;
+}
+
+.ticket-card.backlog {
+  border-color: #e74c3c;
+}
+
+.ticket-card.urgent {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+.ticket-card.high {
+  background-color: #f39c12;
+  color: #fff;
+}
+
+.ticket-card.medium {
+  background-color: #e67e22;
+  color: #fff;
+}
+
+.ticket-card.low {
+  background-color: #27ae60;
+  color: #fff;
+}
